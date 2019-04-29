@@ -1,0 +1,5 @@
+./node_modules
+./checkpoint
+./models/117M
+./models/article_schema.js
+./results*

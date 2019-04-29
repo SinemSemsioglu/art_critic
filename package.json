@@ -1,0 +1,26 @@
+{
+  "name": "art_critic",
+  "main": "./index.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "my-package:toggle"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {},
+  "dependencies": {
+    "csv-parse": "^4.4.1",
+    "csv-parser": "^2.2.0",
+    "jquery": "^3.4.0",
+    "mongoose": "^5.5.4",
+    "puppeteer": "^1.15.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "cors": "^2.8.1"
+  }
+}
